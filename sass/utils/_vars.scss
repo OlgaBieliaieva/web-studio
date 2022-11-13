@@ -1,0 +1,27 @@
+// variables
+:root {
+  --background-color-primary: #ffffff;
+  --background-color-secondary: #f5f4fa;
+  --background-color-accent: #2f303a;
+  --background-color-button: #2196f3;
+  --background-color-button-active: #188ce8;
+  --background-color-overlay: rgba(33, 150, 243, 0.9);
+  --color-primary: #757575;
+  --color-secondary: #212121;
+  --color-accent: #2196f3;
+  --color-invert: #ffffff;
+  --color-logo: #000000;
+  --font-family-primary: "Roboto", sans-serif;
+  --font-family-logo: "Raleway", sans-serif;
+  --font-weight-header: 500;
+  --font-weight-heading: 700;
+  --font-weight-hero: 900;
+  --font-size-form: 12px;
+  --font-size-primary: 14px;
+  --font-size-accent: 16px;
+  --font-size-title: 18px;
+  --font-size-modal: 20px;
+  --font-size-logo: 26px;
+  --font-size-heading: 36px;
+  --font-size-hero: 44px;
+}

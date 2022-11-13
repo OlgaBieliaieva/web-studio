@@ -1,0 +1,58 @@
+// structure and common styles for section items
+.section {
+  padding: 94px 0;
+
+  // .section--benefits
+  // .section--team
+}
+
+.section__title {
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-heading);
+  line-height: 1.17;
+}
+
+.section__list {
+  display: flex;
+  gap: 30px;
+
+  // .section__list--portfolio
+}
+
+// .section__card {
+// .section__card--benefits
+// .section__card--service
+// .section__card--team
+// }
+
+// .card__link (portfolio)
+
+.card__title {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-primary);
+  line-height: 1.14;
+
+  // .card__title--benefits
+  // .card__title--service
+  // .card__title--team
+  // .card__title--portfolio
+}
+
+// .card__description {
+// .card__description--benefits
+// .card__description--team
+// .card__description--portfolio
+// }
+
+// .card__image
+
+// .image__wrapper {
+// .image__wrapper--benefits
+// .image__wrapper--portfolio
+// }
+
+// .image__overlay

@@ -1,0 +1,26 @@
+// common styles for social links
+.social__title {
+  margin-bottom: 20px;
+  text-align: left;
+  color: var(--color-invert);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-primary);
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.social__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social__icon {
+  fill: currentColor;
+}

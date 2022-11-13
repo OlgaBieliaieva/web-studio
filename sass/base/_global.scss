@@ -1,0 +1,14 @@
+// global styles
+body {
+  background-color: var(--background-color-primary);
+  color: var(--color-primary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-primary);
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

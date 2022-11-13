@@ -1,0 +1,18 @@
+// common styles for LOGO (header)
+.logo {
+  font-family: var(--font-family-logo);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-logo);
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo__main {
+  color: var(--color-accent);
+}
+.logo__second {
+  color: var(--color-logo);
+
+  &--invert {
+    color: var(--color-invert);
+  }
+}

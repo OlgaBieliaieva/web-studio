@@ -1,0 +1,22 @@
+.section--benefits {
+  padding-bottom: 0;
+}
+.section__card--benefits {
+  width: 270px;
+}
+.image__wrapper--benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: var(--background-color-secondary);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.card__title--benefits {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.card__description--benefits {
+  line-height: 1.71;
+}
