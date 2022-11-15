@@ -1,23 +1,34 @@
 // structure and common styles for section items
 .section {
-  padding: 94px 0;
+  padding: 60px 0;
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
 
   // .section--benefits
+  // .section--service
   // .section--team
 }
 
 .section__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   color: var(--color-secondary);
   font-weight: var(--font-weight-heading);
-  font-size: var(--font-size-heading);
+  font-size: var(--font-size-heading-mob);
   line-height: 1.17;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: var(--font-size-heading);
+  }
 }
 
 .section__list {
-  display: flex;
-  gap: 30px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 30px;
+  }
 
   // .section__list--portfolio
 }
@@ -48,7 +59,10 @@
 // .card__description--portfolio
 // }
 
-// .card__image
+.card__image {
+  width: 100%;
+  height: auto;
+}
 
 // .image__wrapper {
 // .image__wrapper--benefits

@@ -1,3 +1,9 @@
+.section--service {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
 .section__card--service {
   position: relative;
 }

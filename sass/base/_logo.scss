@@ -1,13 +1,15 @@
 // common styles for LOGO (header)
 .logo {
-  
   font-family: var(--font-family-logo);
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-logo-mob);
   line-height: 1.17;
   text-decoration: none;
-  // font-size: var(--font-size-logo);
-  // line-height: 1.2;
+
+  @media screen and (min-width: 1200px) {
+    font-size: var(--font-size-logo);
+    line-height: 1.2;
+  }
 }
 .logo__main {
   color: var(--color-accent);
