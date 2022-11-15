@@ -1,7 +1,14 @@
-.clients__link {
+.section__list--clients {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
+}
+.clients__link {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 2);
+  justify-content: center;
+  align-items: center;
   width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -12,8 +19,6 @@
 
   @media screen and (min-width: 1200px) {
     width: 170px;
-    justify-content: center;
-    align-items: center;
   }
   &:hover,
   &:focus {

@@ -20,7 +20,11 @@
 }
 .card__title--benefits {
   margin-bottom: 10px;
+  text-align: center;
   text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 .card__description--benefits {
   line-height: 1.71;
