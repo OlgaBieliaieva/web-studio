@@ -23,6 +23,7 @@
       ),
       url(../../images/mobile/hero-image@2x.jpg);
   }
+
   @media screen and (min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
@@ -33,6 +34,7 @@
       ),
       url(../../images/mobile/hero-image@3x.jpg);
   }
+
   @media screen and (min-width: 1200px) {
     max-width: 1600px;
     margin: 0 auto;
