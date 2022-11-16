@@ -2,8 +2,37 @@
   width: 100%;
   padding: 118px 0;
   margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--background-color-accent);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../images/mobile/hero-image.jpg);
 
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/mobile/hero-image@2x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 3),
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/mobile/hero-image@3x.jpg);
+  }
   @media screen and (min-width: 1200px) {
     max-width: 1600px;
     margin: 0 auto;
@@ -15,9 +44,6 @@
         rgba(47, 48, 58, 0.4)
       ),
       url(../images/studio/hero-image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 .hero__container {
