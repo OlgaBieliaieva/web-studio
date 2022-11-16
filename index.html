@@ -31,6 +31,11 @@
             lang="en"
             >Web<span class="logo__second">Studio</span></a
           >
+          <button class="burger-menu__button js-open-menu" type="button">
+            <svg class="btn__icon" width="40" height="40">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
           <ul class="nav__list">
             <li>
               <a
@@ -188,7 +193,7 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 480px)"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-1.webp    1x,
                     ./images/mobile/team/memberteam-1@2x.webp 2x,
@@ -198,7 +203,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 480px )"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-1.jpg    1x,
                     ./images/mobile/team/memberteam-1@2x.jpg 2x,
@@ -210,7 +215,6 @@
                   class="card__image"
                   src="./images/mobile/team/memberteam-1.jpg"
                   alt="усміхнений хлопець в окулярах з бородою (фото)"
-                  width="270"
                 />
               </picture>
               <div class="card__description card__description--team">
@@ -267,7 +271,7 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 480px)"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-2.webp    1x,
                     ./images/mobile/team/memberteam-2@2x.webp 2x,
@@ -277,7 +281,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 480px )"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-2.jpg    1x,
                     ./images/mobile/team/memberteam-2@2x.jpg 2x,
@@ -289,7 +293,6 @@
                   class="card__image"
                   src="./images/mobile/team/memberteam-2.jpg"
                   alt="усміхнена дівчина зі світлим волоссям (фото)"
-                  width="270"
                 />
               </picture>
               <div class="card__description card__description--team">
@@ -346,7 +349,7 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 480px)"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-3.webp    1x,
                     ./images/mobile/team/memberteam-3@2x.webp 2x,
@@ -356,7 +359,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 480px )"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-3.jpg    1x,
                     ./images/mobile/team/memberteam-3@2x.jpg 2x,
@@ -368,7 +371,6 @@
                   class="card__image"
                   src="./images/mobile/team/memberteam-3.jpg"
                   alt="усміхнений хлопець з бородою (фото)"
-                  width="270"
                 />
               </picture>
               <div class="card__description card__description--team">
@@ -425,7 +427,7 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 480px)"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-4.webp    1x,
                     ./images/mobile/team/memberteam-4@2x.webp 2x,
@@ -435,7 +437,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 480px )"
+                  media="(max-width: 768px)"
                   srcset="
                     ./images/mobile/team/memberteam-4.jpg    1x,
                     ./images/mobile/team/memberteam-4@2x.jpg 2x,
@@ -447,7 +449,6 @@
                   class="card__image"
                   src="./images/mobile/team/memberteam-4.jpg"
                   alt="хлопець в окулярах з бородою (фото)"
-                  width="270"
                 />
               </picture>
               <div class="card__description card__description--team">
@@ -733,6 +734,60 @@
           </button>
         </form>
       </div>
+    </div>
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu__button js-close-menu" type="button">
+        <svg class="btn__icon" width="40" height="40">
+          <use href="./images/icons.svg#icon-close-mobile"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu__nav">
+        <ul class="nav__list--mobile">
+          <li>
+            <a
+              class="nav__link nav__link--mobile"
+              href="./index.html"
+              rel="noreferrer noopener nofollow"
+              >Студія</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav__link nav__link--mobile"
+              href="./portfolio.html"
+              rel="noreferrer noopener nofollow"
+              >Портфоліо</a
+            >
+          </li>
+          <li>
+            <a
+              class="nav__link nav__link--mobile"
+              href=""
+              target="_blank"
+              rel="noreferrer noopener nofollow"
+              >Контакти</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <ul class="mobile-menu__contacts">
+        <li>
+          <a
+            class="contacts__link contacts__link--mobile"
+            href="tel:+380961111111"
+          >
+            +38 096 111 11 11</a
+          >
+        </li>
+        <li>
+          <a
+            class="contacts__link contacts__link--mobile"
+            href="mailto:info@devstudio.com"
+          >
+            info@devstudio.com</a
+          >
+        </li>
+      </ul>
     </div>
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
