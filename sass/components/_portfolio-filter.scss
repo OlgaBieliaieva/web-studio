@@ -1,9 +1,14 @@
 //filter buttons set for portfolio
 .filter__list {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 50px;
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
 }
 .filter__button {
   padding: 6px 22px;

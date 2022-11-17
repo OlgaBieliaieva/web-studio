@@ -1,6 +1,11 @@
 // styles for portfolio list
 .section__list--portfolio {
-  flex-wrap: wrap;
+  @media screen and (min-width: 1200px) {
+    flex-wrap: wrap;
+  }
+}
+.list__item--portfolio:not(:last-child) {
+  margin-bottom: 30px;
 }
 .card__link {
   display: block;
@@ -22,8 +27,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 370px;
-  height: 295px;
+  width: 100%;
+  height: 100%;
   padding: 63px 24px;
   background-color: var(--background-color-overlay);
   color: var(--color-invert);
