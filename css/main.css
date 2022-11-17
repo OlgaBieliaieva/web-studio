@@ -23,7 +23,9 @@
   --font-size-logo-mob: 24px;
   --font-size-logo: 26px;
   --font-size-heading-mob: 28px;
+  --font-size-menu-mob: 34px;
   --font-size-heading: 36px;
+  --font-size-mob-menu: 40px;
   --font-size-hero: 44px;
 }
 
@@ -1021,6 +1023,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 48px 40px;
+  pointer-events: scroll;
   background-color: var(--background-color-primary);
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
@@ -1059,4 +1062,73 @@ body {
 }
 .mobile-menu__button:hover, .mobile-menu__button:focus, .mobile-menu__button:active {
   color: var(--color-accent);
+}
+
+.mobile-menu__nav {
+  margin-bottom: 306px;
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-header);
+  font-size: var(--font-size-mob-menu);
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+}
+
+.nav__item--mobile:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.contacts__item--mobile:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-menu__contacts {
+  margin-bottom: 64px;
+}
+.mobile-menu__contacts .contacts__link--tel {
+  color: var(--color-accent);
+  font-weight: var(--font-weight-header);
+  font-size: var(--font-size-menu-mob);
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mobile-menu__contacts .contacts__link--mail {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-header);
+  font-size: var(--font-size-logo-mob);
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.social__list--mobile {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 20px;
+}
+
+.social__item:not(:last-child) {
+  position: relative;
+}
+
+.social__link--mobile {
+  width: 100%;
+  height: 100%;
+  color: var(--color-accent);
+  font-weight: var(--font-weight-header);
+  font-size: var(--font-size-title);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.social__link--mobile::after {
+  position: absolute;
+  right: -21px;
+  content: " ";
+  width: 22px;
+  height: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }/*# sourceMappingURL=main.css.map */
