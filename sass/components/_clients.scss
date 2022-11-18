@@ -4,13 +4,19 @@
   gap: 30px;
   justify-content: center;
 }
+.section__card--clients {
+  flex-basis: calc((100% - 30px) / 2);
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
 .clients__link {
   display: flex;
-  flex-basis: calc((100% - 30px) / 2);
   justify-content: center;
   align-items: center;
-  width: 210px;
-  height: 92px;
+  min-width: 210px;
+  min-height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;

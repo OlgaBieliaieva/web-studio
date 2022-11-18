@@ -64,6 +64,8 @@
 
   @media screen and (min-width: 768px) {
     display: block;
+    font-size: var(--font-size-form);
+    line-height: 1.17;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -71,8 +73,9 @@
     gap: 50px;
   }
 }
+
 .contacts__item--header:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 .contacts__link {
   @media screen and (min-width: 768px) {
