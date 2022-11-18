@@ -4,8 +4,20 @@
     flex-wrap: wrap;
   }
 }
-.list__item--portfolio:not(:last-child) {
+.section__card--portfolio {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+
+.section__card--portfolio:not(:last-child) {
   margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 .card__link {
   display: block;
