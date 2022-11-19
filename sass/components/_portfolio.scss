@@ -11,12 +11,17 @@
   @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - 60px) / 3);
   }
-}
 
-.section__card--portfolio:not(:last-child) {
-  margin-bottom: 30px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+  &:first-child .card__description--portfolio {
+    @media screen and (min-width: 768px) and (max-width: 790px) {
+      padding-bottom: 56px;
+    }
   }
 }
 .card__link {

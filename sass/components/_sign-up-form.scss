@@ -68,8 +68,9 @@
   display: flex;
   margin-bottom: 30px;
   gap: 7px;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   font-size: var(--font-size-form);
   line-height: 1.17;
   letter-spacing: 0.03em;
