@@ -68,7 +68,6 @@
   display: flex;
   margin-bottom: 30px;
   gap: 7px;
-  // justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   font-size: var(--font-size-form);
@@ -76,6 +75,7 @@
   letter-spacing: 0.03em;
 
   @media screen and (min-width: 1200px) {
+    justify-content: center;
     font-size: var(--font-size-primary);
     line-height: 1.71;
   }
