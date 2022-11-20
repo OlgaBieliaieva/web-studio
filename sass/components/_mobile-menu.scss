@@ -1,4 +1,6 @@
 .mobile-menu {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,12 +38,17 @@
   }
 }
 .mobile-menu__nav {
-  margin-bottom: 306px;
+  margin-bottom: auto;
   color: var(--color-secondary);
   font-weight: var(--font-weight-header);
   font-size: var(--font-size-mob-menu);
   line-height: 1.18;
   letter-spacing: 0.02em;
+}
+.nav__item--mobile {
+  &.current {
+    color: var(--color-accent);
+  }
 }
 .nav__item--mobile:not(:last-child) {
   margin-bottom: 32px;
