@@ -164,11 +164,32 @@
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="section__list">
             <li class="section__card section__card--service">
-              <img
-                src="./images/studio/project.jpg"
-                alt="людина друкує на клавіатурі комп'ютера"
-                width="370"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/desktop-apps.webp    1x,
+                    ./images/desktop/service/desktop-apps@2x.webp 2x,
+                    ./images/desktop/service/desktop-apps@3x.webp 3x
+                  "
+                  src="./images/desktop/service/desktop-apps.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/desktop-apps.jpg    1x,
+                    ./images/desktop/service/desktop-apps@2x.jpg 2x,
+                    ./images/desktop/service/desktop-apps@3x.jpg 3x
+                  "
+                  src="./images/desktop/service/desktop-apps.jpg"
+                />
+                <img
+                  src="./images/desktop/service/desktop-apps.jpg"
+                  alt="людина друкує на клавіатурі комп'ютера"
+                  width="370"
+                />
+              </picture>
               <h3 class="card__title card__title--service">
                 Десктопні додатки
               </h3>
