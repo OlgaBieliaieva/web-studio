@@ -183,11 +183,13 @@
                     ./images/desktop/service/desktop-apps@3x.jpg 3x
                   "
                   src="./images/desktop/service/desktop-apps.jpg"
+                  type="image/jpg"
                 />
                 <img
                   src="./images/desktop/service/desktop-apps.jpg"
                   alt="людина друкує на клавіатурі комп'ютера"
                   width="370"
+                  loading="lazy"
                 />
               </picture>
               <h3 class="card__title card__title--service">
@@ -195,19 +197,65 @@
               </h3>
             </li>
             <li class="section__card section__card--service">
-              <img
-                src="./images/studio/develop.jpg"
-                alt="людина працює за ноутбуком"
-                width="370"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/mobile-apps.webp    1x,
+                    ./images/desktop/service/mobile-apps@2x.webp 2x,
+                    ./images/desktop/service/mobile-apps@3x.webp 3x
+                  "
+                  src="./images/desktop/service/mobile-apps.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/mobile-apps.jpg    1x,
+                    ./images/desktop/service/mobile-apps@2x.jpg 2x,
+                    ./images/desktop/service/mobile-apps@3x.jpg 3x
+                  "
+                  src="./images/desktop/service/mobile-apps.jpg"
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/desktop/service/mobile-apps.jpg"
+                  alt="людина працює за ноутбуком"
+                  width="370"
+                  loading="lazy"
+                />
+              </picture>
               <h3 class="card__title card__title--service">Мобільні додатки</h3>
             </li>
             <li class="section__card section__card--service">
-              <img
-                src="./images/studio/style.jpg"
-                alt="людина тримає планшет з палітрою кольорів"
-                width="370"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/design-solutions.webp    1x,
+                    ./images/desktop/service/design-solutions@2x.webp 2x,
+                    ./images/desktop/service/design-solutions@3x.webp 3x
+                  "
+                  src="./images/desktop/service/design-solutions.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/service/design-solutions.jpg    1x,
+                    ./images/desktop/service/design-solutions@2x.jpg 2x,
+                    ./images/desktop/service/design-solutions@3x.jpg 3x
+                  "
+                  src="./images/desktop/service/design-solutions.jpg"
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/desktop/service/design-solutions.jpg"
+                  alt="людина тримає планшет з палітрою кольорів"
+                  width="370"
+                  loading="lazy"
+                />
+              </picture>
               <h3 class="card__title card__title--service">
                 Дизайнерські рішення
               </h3>
@@ -222,13 +270,13 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 767px)"
+                  media="(min-width: 1200px)"
                   srcset="
-                    ./images/mobile/team/memberteam-1.webp    1x,
-                    ./images/mobile/team/memberteam-1@2x.webp 2x,
-                    ./images/mobile/team/memberteam-1@3x.webp 3x
+                    ./images/desktop/team/memberteam-1.webp    1x,
+                    ./images/desktop/team/memberteam-1@2x.webp 2x,
+                    ./images/desktop/team/memberteam-1@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-1.webp"
+                  src="./images/desktop/team/memberteam-1.webp"
                   type="image/webp"
                 />
                 <source
@@ -244,11 +292,22 @@
                 <source
                   media="(max-width: 767px)"
                   srcset="
-                    ./images/mobile/team/memberteam-1.jpg    1x,
-                    ./images/mobile/team/memberteam-1@2x.jpg 2x,
-                    ./images/mobile/team/memberteam-1@3x.jpg 3x
+                    ./images/mobile/team/memberteam-1.webp    1x,
+                    ./images/mobile/team/memberteam-1@2x.webp 2x,
+                    ./images/mobile/team/memberteam-1@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-1.jpg"
+                  src="./images/mobile/team/memberteam-1.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/memberteam-1.jpg    1x,
+                    ./images/desktop/team/memberteam-1@2x.jpg 2x,
+                    ./images/desktop/team/memberteam-1@3x.jpg 3x
+                  "
+                  src="./images/desktop/team/memberteam-1.jpg"
+                  type="image/jpg"
                 />
                 <source
                   media="(min-width: 768px)"
@@ -258,7 +317,19 @@
                     ./images/tablet/team/memberteam-1@3x.jpg 3x
                   "
                   src="./images/tablet/team/memberteam-1.jpg"
+                  type="image/jpg"
                 />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/memberteam-1.jpg    1x,
+                    ./images/mobile/team/memberteam-1@2x.jpg 2x,
+                    ./images/mobile/team/memberteam-1@3x.jpg 3x
+                  "
+                  src="./images/mobile/team/memberteam-1.jpg"
+                  type="image/jpg"
+                />
+
                 <img
                   class="card__image"
                   src="./images/mobile/team/memberteam-1.jpg"
@@ -320,13 +391,13 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 767px)"
+                  media="(min-width: 1200px)"
                   srcset="
-                    ./images/mobile/team/memberteam-2.webp    1x,
-                    ./images/mobile/team/memberteam-2@2x.webp 2x,
-                    ./images/mobile/team/memberteam-2@3x.webp 3x
+                    ./images/desktop/team/memberteam-2.webp    1x,
+                    ./images/desktop/team/memberteam-2@2x.webp 2x,
+                    ./images/desktop/team/memberteam-2@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-2.webp"
+                  src="./images/desktop/team/memberteam-2.webp"
                   type="image/webp"
                 />
                 <source
@@ -342,11 +413,23 @@
                 <source
                   media="(max-width: 767px)"
                   srcset="
-                    ./images/mobile/team/memberteam-2.jpg    1x,
-                    ./images/mobile/team/memberteam-2@2x.jpg 2x,
-                    ./images/mobile/team/memberteam-2@3x.jpg 3x
+                    ./images/mobile/team/memberteam-2.webp    1x,
+                    ./images/mobile/team/memberteam-2@2x.webp 2x,
+                    ./images/mobile/team/memberteam-2@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-2.jpg"
+                  src="./images/mobile/team/memberteam-2.webp"
+                  type="image/webp"
+                />
+
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/memberteam-2.jpg    1x,
+                    ./images/desktop/team/memberteam-2@2x.jpg 2x,
+                    ./images/desktop/team/memberteam-2@3x.jpg 3x
+                  "
+                  src="./images/desktop/team/memberteam-2.jpg"
+                  type="image/jpg"
                 />
                 <source
                   media="(min-width: 768px)"
@@ -356,7 +439,19 @@
                     ./images/tablet/team/memberteam-2@3x.jpg 3x
                   "
                   src="./images/tablet/team/memberteam-2.jpg"
+                  type="image/jpg"
                 />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/memberteam-2.jpg    1x,
+                    ./images/mobile/team/memberteam-2@2x.jpg 2x,
+                    ./images/mobile/team/memberteam-2@3x.jpg 3x
+                  "
+                  src="./images/mobile/team/memberteam-2.jpg"
+                  type="image/jpg"
+                />
+
                 <img
                   class="card__image"
                   src="./images/mobile/team/memberteam-2.jpg"
@@ -418,13 +513,13 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 767px)"
+                  media="(min-width: 1200px)"
                   srcset="
-                    ./images/mobile/team/memberteam-3.webp    1x,
-                    ./images/mobile/team/memberteam-3@2x.webp 2x,
-                    ./images/mobile/team/memberteam-3@3x.webp 3x
+                    ./images/desktop/team/memberteam-3.webp    1x,
+                    ./images/desktop/team/memberteam-3@2x.webp 2x,
+                    ./images/desktop/team/memberteam-3@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-3.webp"
+                  src="./images/desktop/team/memberteam-3.webp"
                   type="image/webp"
                 />
                 <source
@@ -440,11 +535,22 @@
                 <source
                   media="(max-width: 767px)"
                   srcset="
-                    ./images/mobile/team/memberteam-3.jpg    1x,
-                    ./images/mobile/team/memberteam-3@2x.jpg 2x,
-                    ./images/mobile/team/memberteam-3@3x.jpg 3x
+                    ./images/mobile/team/memberteam-3.webp    1x,
+                    ./images/mobile/team/memberteam-3@2x.webp 2x,
+                    ./images/mobile/team/memberteam-3@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-3.jpg"
+                  src="./images/mobile/team/memberteam-3.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/memberteam-3.jpg    1x,
+                    ./images/desktop/team/memberteam-3@2x.jpg 2x,
+                    ./images/desktop/team/memberteam-3@3x.jpg 3x
+                  "
+                  src="./images/desktop/team/memberteam-3.jpg"
+                  type="image/jpg"
                 />
                 <source
                   media="(min-width: 768px)"
@@ -454,7 +560,19 @@
                     ./images/tablet/team/memberteam-3@3x.jpg 3x
                   "
                   src="./images/tablet/team/memberteam-3.jpg"
+                  type="image/jpg"
                 />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/memberteam-3.jpg    1x,
+                    ./images/mobile/team/memberteam-3@2x.jpg 2x,
+                    ./images/mobile/team/memberteam-3@3x.jpg 3x
+                  "
+                  src="./images/mobile/team/memberteam-3.jpg"
+                  type="image/jpg"
+                />
+
                 <img
                   class="card__image"
                   src="./images/mobile/team/memberteam-3.jpg"
@@ -516,13 +634,13 @@
             <li class="section__card section__card--team">
               <picture>
                 <source
-                  media="(max-width: 767px)"
+                  media="(min-width: 1200px)"
                   srcset="
-                    ./images/mobile/team/memberteam-4.webp    1x,
-                    ./images/mobile/team/memberteam-4@2x.webp 2x,
-                    ./images/mobile/team/memberteam-4@3x.webp 3x
+                    ./images/desktop/team/memberteam-4.webp    1x,
+                    ./images/desktop/team/memberteam-4@2x.webp 2x,
+                    ./images/desktop/team/memberteam-4@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-4.webp"
+                  src="./images/desktop/team/memberteam-4.webp"
                   type="image/webp"
                 />
                 <source
@@ -538,11 +656,22 @@
                 <source
                   media="(max-width: 767px)"
                   srcset="
-                    ./images/mobile/team/memberteam-4.jpg    1x,
-                    ./images/mobile/team/memberteam-4@2x.jpg 2x,
-                    ./images/mobile/team/memberteam-4@3x.jpg 3x
+                    ./images/mobile/team/memberteam-4.webp    1x,
+                    ./images/mobile/team/memberteam-4@2x.webp 2x,
+                    ./images/mobile/team/memberteam-4@3x.webp 3x
                   "
-                  src="./images/mobile/team/memberteam-4.jpg"
+                  src="./images/mobile/team/memberteam-4.webp"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/memberteam-4.jpg    1x,
+                    ./images/desktop/team/memberteam-4@2x.jpg 2x,
+                    ./images/desktop/team/memberteam-4@3x.jpg 3x
+                  "
+                  src="./images/desktop/team/memberteam-4.jpg"
+                  type="image/jpg"
                 />
                 <source
                   media="(min-width: 768px)"
@@ -552,7 +681,19 @@
                     ./images/tablet/team/memberteam-4@3x.jpg 3x
                   "
                   src="./images/tablet/team/memberteam-4.jpg"
+                  type="image/jpg"
                 />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/memberteam-4.jpg    1x,
+                    ./images/mobile/team/memberteam-4@2x.jpg 2x,
+                    ./images/mobile/team/memberteam-4@3x.jpg 3x
+                  "
+                  src="./images/mobile/team/memberteam-4.jpg"
+                  type="image/jpg"
+                />
+
                 <img
                   class="card__image"
                   src="./images/mobile/team/memberteam-4.jpg"
