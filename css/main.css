@@ -134,6 +134,7 @@ body {
 }
 
 .card__title {
+  margin-bottom: 10px;
   color: var(--color-secondary);
   font-weight: var(--font-weight-heading);
   font-size: var(--font-size-primary);
@@ -548,7 +549,6 @@ body {
 }
 
 .card__title--benefits {
-  margin-bottom: 10px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -628,7 +628,6 @@ body {
 }
 
 .card__title--team {
-  margin-bottom: 10px;
   font-weight: var(--font-weight-header);
   font-size: var(--font-size-accent);
   line-height: 1.19;
