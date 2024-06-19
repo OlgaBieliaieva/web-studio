@@ -67,9 +67,10 @@ Deployed on Netlify
 1. Development Server:
 You can use a local server for development purposes. For example, if you have the live-server package installed globally, run:
 
-    
-    live-server
-
+```bash
+live-server
+```
+   
 2. Navigate to your local server:
 Open your web browser and go to http://localhost:8080 to view the project.
 
