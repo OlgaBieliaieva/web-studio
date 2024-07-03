@@ -72,7 +72,7 @@ live-server
 ```
    
 2. Navigate to your local server:
-Open your web browser and go to http://localhost:8080 to view the project.
+Open your web browser and go to http://localhost:3000 to view the project.
 
 
 
